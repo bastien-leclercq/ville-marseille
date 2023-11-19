@@ -1,0 +1,109 @@
+:root{
+    --background : rgb(19, 42, 105);
+    --texte : white;
+}
+
+/* Annuaire */
+.upper{
+    height: 70vh;
+    background-image: url(../image/mucem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.upper_texte .titre{
+    font-size: 3rem;
+    color: var(--texte);
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.upper_texte p{
+    text-align: end;
+    padding: 50px;
+    z-index: 10;
+    color: var(--texte);
+    font-size: 2rem;
+}
+
+.add {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.content {
+    min-width: 500px;
+    border-radius: 25px;
+    max-width: 300px;
+    margin: 30px;
+    background-color: var(--background);
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+
+.content img{
+    max-width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    margin: 0;
+    aspect-ratio: 16/9;
+}
+
+.content_texte {
+    padding: 25px;
+    color: var(--texte);
+    line-height: 25px;
+}
+
+.content_texte a{
+    color: var(--texte);
+}
+footer{
+    background:#1b1b1b;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:white;
+    font-size:0.8em;
+    }
+    
+    footer .row a{
+    text-decoration:none;
+    color:white;
+    transition:0.5s;
+    }
+    
+    footer .row a:hover{
+    color:#fff;
+    }
+    
+    footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
